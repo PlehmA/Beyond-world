@@ -1,3 +1,7 @@
+html,body,nav,h1,h2,h3,h4,h5,h6,p,footer{
+    font-family: 'Niconne', cursive;
+    font-size: 40px;
+}
 html,
 body {
     overflow-x: hidden; /* Prevent scroll on narrow devices */
@@ -7,6 +11,16 @@ body {
 }
 footer {
     padding: 30px 0;
+}
+p{
+    font-size: 26px;
+}
+a{
+    font-size: 20px;
+}
+nav {
+    background-color: #272525;
+    font-size: 30px;
 }
 
 /*
