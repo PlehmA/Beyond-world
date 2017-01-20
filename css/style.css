@@ -5,6 +5,8 @@ html,body,nav,h1,h2,h3,h4,h5,h6,p,footer{
 html,
 body {
     overflow-x: hidden; /* Prevent scroll on narrow devices */
+    background-color: #000000;
+    color: white;
 }
 body {
     padding-top: 100px;
@@ -55,4 +57,10 @@ nav {
 .navbar-container{
     transition: 0.8s;
     -webkit-transition:  0.8s;
+}
+.sobrenos{
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8 )), url("../images/Maps/world.jpg") no-repeat center top;
+    background-size: cover;
+    color: white;
+    height: 100%;
 }

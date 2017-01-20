@@ -20,11 +20,11 @@
                     </button>
                     <a id="brand" class="navbar-brand" href="#">Beyond World</a>
                 </div>
-                <div id="navbar" class="collapse navbar-collapse">
+                <div id="brand" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li class=""><a href="#">Home</a></li>
+                        <li><a href="#sobrenos">Sobre nosotros</a></li>
+                        <li><a href="#social">Social</a></li>
                     </ul>
                 </div><!-- /.nav-collapse -->
             </div><!-- /.container -->
@@ -38,42 +38,34 @@
                     <p class="pull-right visible-xs">
                         <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
                     </p>
-                    <div class="text-center">
+                    <div class="text-center sobrenos" id="sobrenos">
                         <h2>Recorre el extenso mundo de Beyond</h2>
-                        <p>This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
+                        <br>
+                        <p style="color: white; background-image: url(Maps/world.jpg);"">This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
                     </div>
                     <div class="row">
                     <hr>
                         <div class="text-center">
                             <h2>Explora el mundo</h2>
-                            <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+                            <p><a class="btn btn-default" href="login.php" role="button">View details »</a></p>
                         </div>
+                        <br>
                         <hr>
+                        <br>
                         <div class="text-center">
                             <h2>Sumate a tus amigos</h2>
                             <p>Sistema de hermandad implementado</p>
-                            <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-                        </div><!--/.col-xs-6.col-lg-4-->
-                        <div class="col-xs-6 col-lg-4">
-                            <h2>Heading</h2>
+                            <p><a class="btn btn-default" href="login.php" role="button">View details »</a></p>
+                        </div>
+                        <br>
+                        <hr>
+                        <br>
+                        <div class="text-center" id="social">
+                            <h2>Redes sociales</h2>
                             <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
                             <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-                        </div><!--/.col-xs-6.col-lg-4-->
-                        <div class="col-xs-6 col-lg-4">
-                            <h2>Heading</h2>
-                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                            <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-                        </div><!--/.col-xs-6.col-lg-4-->
-                        <div class="col-xs-6 col-lg-4">
-                            <h2>Heading</h2>
-                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                            <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-                        </div><!--/.col-xs-6.col-lg-4-->
-                        <div class="col-xs-6 col-lg-4">
-                            <h2>Heading</h2>
-                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                            <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-                        </div><!--/.col-xs-6.col-lg-4-->
+                        </div>
+                        <br>
                     </div><!--/row-->
                 </div><!--/.col-xs-12.col-sm-9-->
 
