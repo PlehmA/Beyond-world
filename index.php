@@ -66,6 +66,19 @@
                             <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
                         </div>
                         <br>
+                        <hr>
+                        <div class="text-center" id="social">
+                            <h2>Registro</h2>
+                            <form class="form-horizontal">
+                            <label>usuario</label>
+                                <input type="text" name="usuario">
+                                <br>
+                                <label>password</label>
+                                <input type="password" name="password">
+                                <br>
+                                <input type="submit" name="enviar"  style="color: #fff;" class="btn btn-block btn-success">
+                            </form>
+                        </div>
                     </div><!--/row-->
                 </div><!--/.col-xs-12.col-sm-9-->
 
@@ -82,8 +95,8 @@
 
             <hr>
 
-            <footer>
-                <p>© Company 2014</p>
+            <footer class="text-center">
+                <p>&copy Andres Plehm <?php echo "date('Y')"; ?></p>
             </footer>
 
         </div><!--/.container-->
